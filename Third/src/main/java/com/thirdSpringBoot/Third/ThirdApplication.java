@@ -1,5 +1,12 @@
 //Beans
 //It is used to switch between components
+
+
+//Instead of beans we can also use the component annotation to declare a bean
+//We use the @Component where we need to make a bean and then use the class as a bean
+//We dont need the config for this
+//We can also use the annotation @Service instead of the component
+
 package com.thirdSpringBoot.Third;
 
 import com.thirdSpringBoot.Third.services.ColourPrinter;

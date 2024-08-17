@@ -4,7 +4,10 @@ import com.thirdSpringBoot.Third.services.ColourPrinter;
 import com.thirdSpringBoot.Third.services.GreyPrinter;
 import com.thirdSpringBoot.Third.services.OrangePrinter;
 import com.thirdSpringBoot.Third.services.PurplePrinter;
+import org.springframework.stereotype.Component;
 
+
+@Component
 public class ColourPrinterImpl implements ColourPrinter {
     private GreyPrinter greyPrinter;
     private OrangePrinter orangePrinter;

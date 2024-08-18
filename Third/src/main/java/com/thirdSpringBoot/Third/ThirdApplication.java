@@ -7,6 +7,15 @@
 //We dont need the config for this
 //We can also use the annotation @Service instead of the component
 
+//If we want to change the port number than we have to server.port = port number       in application.yml
+
+//Another way is to rename the application.yml to application.yml and use server:
+//																						port: 8212
+
+//Another way is to give SERVER_PORT = 8218 in the environment variable
+//To declare environment variable either we can use intellij by going to edit configuration and then add the SERVER_PORT =9212
+//Another way to declare environment variable is by command line by just             SERVER_PORT = 9213 ./mvnw sprint-boot:run
+//The last way is temporary way of giving port number
 package com.thirdSpringBoot.Third;
 
 import com.thirdSpringBoot.Third.services.ColourPrinter;
